@@ -23,9 +23,14 @@ A Python-based tool to efficiently harvest, categorize, and save links from any 
    ```
 
 2. **Install Required Libraries**
-   ```bash
-   pip install -r requirements.txt
-   ```
+   - **Using `requirements.txt`**:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - **Or install manually**:
+     ```bash
+     pip install selenium beautifulsoup4 rich
+     ```
 
 3. **GeckoDriver Setup**  
    Ensure `geckodriver` (for Firefox) is installed and accessible. Update `geckodriver_path` and `firefox_binary_path` in `website-link-harvester.py` as needed.
